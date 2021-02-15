@@ -1,0 +1,28 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  push: {branches: ["master", "main"]}
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: alaazorkane
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_animated: yes
+          config_timezone: Africa/Casablanca
+          plugin_tweets: yes
+          plugin_tweets_limit: 2
+          plugin_tweets_user: .user.twitter
