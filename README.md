@@ -1,1 +1,2 @@
-![Metrics](https://metrics.lecoq.io/alaazorkane?template=classic&tweets=1&tweets.limit=2&tweets.user=.user.twitter&config.timezone=Africa%2FCasablanca&config.animated=true)
+![Github Stats](https://github-readme-stats.vercel.app/api?username=alaazorkane&count_private=true&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alaazorkane&hide=TeX&layout=compact&theme=radical)
