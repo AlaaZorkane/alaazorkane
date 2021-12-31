@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Alaa Zorkane</h1>
 <h3 align="center">Moroccan Software Engineer based in Casablanca</h3>
 
-- 🔭 I’m currently working on **Solana**
+- 🔭 I’m currently experimenting on **Solana**
 
-- 💬 Ask me about **Typescript/GraphQL/Rust**
+- 💬 Ask me about **Typescript/GraphQL/Rust/Solana**
 
-- ⚡ Fun fact **: known in the Moroccan dev community as the GraphQL guy 🤭**
+- ⚡ Fun fact **I dropped out from 4 schools!**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
